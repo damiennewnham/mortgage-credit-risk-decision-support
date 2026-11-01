@@ -1,0 +1,43 @@
+{
+  "dataset_rows": 800,
+  "train_rows": 600,
+  "test_rows": 200,
+  "positive_cases": 175,
+  "negative_cases": 625,
+  "baseline": {
+    "threshold": 0.5,
+    "accuracy": 0.81,
+    "precision": 0.625,
+    "recall": 0.3409090909090909,
+    "f1": 0.4411764705882353,
+    "roc_auc": 0.768502331002331,
+    "confusion_matrix": [
+      [
+        147,
+        9
+      ],
+      [
+        29,
+        15
+      ]
+    ]
+  },
+  "improved": {
+    "threshold": 0.5,
+    "accuracy": 0.69,
+    "precision": 0.3783783783783784,
+    "recall": 0.6363636363636364,
+    "f1": 0.4745762711864407,
+    "roc_auc": 0.7692307692307692,
+    "confusion_matrix": [
+      [
+        110,
+        46
+      ],
+      [
+        16,
+        28
+      ]
+    ]
+  }
+}
